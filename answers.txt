@@ -12,3 +12,8 @@ We get the address and the port used for that connection.
 
 Answer 5:
 We receive an empty string to notify that no more data is left to be returned.
+
+Answer 6:
+https://github.com/sahasukanta/cmput404-lab2
+
+
