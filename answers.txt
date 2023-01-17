@@ -1,0 +1,14 @@
+Answer 1:
+Need to specify the host as string and port as int (both in a tuple) while calling the socket.connect() method. e.g. s.connect((host, port)) where s is the socket connection.
+
+Answer 2:
+The client and server sockets are essentially the same objects in python. The difference lies in how we use them.
+
+Answer 3:
+Pass the socket.SO_REUSEADDR option (second arg) in the .setsockopt() method.
+
+Answer 4:
+We get the address and the port used for that connection.
+
+Answer 5:
+We receive an empty string to notify that no more data is left to be returned.
